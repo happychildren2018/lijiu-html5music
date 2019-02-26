@@ -6,7 +6,7 @@
         "<ul class = 'list-wrapper'></ul>" +
         "<div class='close-btn'>关闭</div>"+
     "</div>") 
-    //渲染我们的播放列表dom
+    //渲染播放列表dom
     function renderList(songList){
         var html = '';
         for(var i = 0;i < songList.length;i++){

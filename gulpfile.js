@@ -20,7 +20,6 @@ var folder = {
 
 var devMode = process.env.NODE_ENV !== "production";
 
-//流操作 task running
 gulp.task("html",function(){
     var page =  gulp.src(folder.src + "html/index.html")
                     .pipe(connect.reload());
